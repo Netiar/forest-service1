@@ -1,0 +1,73 @@
+{{#partial "styles"}}
+    <link rel="stylesheet" href="/css/index.css">
+
+{{/partial}}
+
+{{#partial "content"}}
+    <div class="container">
+        <h2 class="title1"> Add Animal </h2>
+        <form action="/create/animal/new" method="POST" required>
+            <div class="title2">
+                <label for="name" class="form-label">Animal Name</label>
+                <input type="text" class="form-label33" id="animal" name="animal">
+            </div>
+            <div class="title2">
+                <label for="ranger" class="form-label"> Animal Type</label>
+                <input type="text" class="form-label33" id="type" name="type">
+
+            </div>
+
+            <div class="title2">
+                <label for="age" class="form-label1">age</label>
+                <select id="age" name="age" class="form-label3">
+                    <option value="newborn">New-Born</option>
+                    <option value="young">Young</option>
+                    <option value="old">Old</option>
+                </select>
+            </div>
+            <div class="">
+                <label for="health" class="form-label1">Health</label>
+                <select id="health" name="health" class="form-label3">
+                    <option value="healthy">Healthy</option>
+                    <option value="ill">Ill</option>
+                    <option value="okay">Okay</option>
+                </select>
+            </div>
+
+            <h2 class="title1"> Add Sightings</h2>
+
+
+            <div class="title2">
+                <label for="name" class="form-label">Ranger Name</label>
+                <input type="text" class="form-label33" id=ranger" name="ranger">
+            </div>
+            <div class="title2">
+                <label for="animalId" class="form-label2"> Animal-Id</label>
+                <input type="number" class="form-label33" id="type" name="id">
+
+            </div>
+
+            <div class="title2">
+                <label for="location" class="form-label1">location</label>
+                <select id="location" name="location" class="form-label3">
+                    <option value="zoneA">zoneA</option>
+                    <option value="zoneB">zoneB</option>
+                    <option value="zoneC">zoneC</option>
+                </select>
+            </div>
+            <div class="title2">
+                <label for="endangeredAnimal" class="form-label1">Endangered</label>
+                <select id="endangered" name="endangered" class="form-label3">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+
+            <a href="/sightings"> <button type="submit" class="btn btn-default mt-5" style="background-color:gray; color:black; margin-left:2vw;">Submit</button></a>
+        </form>
+
+    </div>
+
+{{/partial}}
+{{> layout.hbs}}

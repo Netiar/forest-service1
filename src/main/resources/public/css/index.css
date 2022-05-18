@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:ital,wght@0,400;0,500;1,600&display=swap');
+
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+     width: 100%;
+     min-height: 90vh;
+     background-color: #e9ecef;
+     background-image: url(../images/wildlife.webp);
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align:center;
+     color: #000;
+}
+
+.title
+{
+    color: #000;
+    font-size: 50px;
+    font-family:Hurricane, sans-serif;
+    padding-top:20vh;
+}
+
+.animal
+{
+    color: #000;
+    font-size: 20px;
+    padding-top:5vh;
+}
+
+.title1
+{
+    color: #000;
+    font-size: 40px;
+    font-family:Hurricane, sans-serif;
+    padding-top:5vh;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.form-label33
+{
+    border-radius: 10px;
+    width:40%;
+    height:4vh;
+}
+
+.form-label
+{
+   margin-left:auto;
+    margin-right:auto;
+}
+
+.form-label2
+{
+    margin-left:2vw;
+
+}
+
+.form-label3
+{
+   border-radius: 5px;
+}
+
+
+
+
+
+
+
